@@ -41,7 +41,7 @@ int main() {
     scanf("%d", &peca);
 
     switch (peca) {
-        case 1:
+        case 1: //TORRE
             printf(" * TORRE *\n");
             printf("1. Direita \n");
             printf("2. Esquerda \n"); 
@@ -55,7 +55,7 @@ int main() {
                 printf("Movimento inválido!\n");
             break;
 
-        case 2:
+        case 2: //BISPO
             printf(" * BISPO *\n");
             printf("1. Diagonal Superior Esquerda\n");
             printf("2. Diagonal Superior Direita\n");
@@ -81,7 +81,7 @@ int main() {
             }
             break;
 
-        case 3:
+        case 3: //RAINHA
             printf(" * RAINHA *\n");
             printf("1. Direita \n");
             printf("2. Esquerda \n"); 
@@ -107,7 +107,7 @@ int main() {
             }
             break;
 
-        case 4:
+        case 4: //CAVALO
             printf(" * CAVALO *\n");
             printf("1. Cima (2x) -> Direita\n");
             printf("2. Cima (2x) -> Esquerda\n");
@@ -153,5 +153,6 @@ int main() {
             printf("Peça inválida!\n");
     }
 
-    return 0;
+//Karol Botelho    
+return 0;
 }
